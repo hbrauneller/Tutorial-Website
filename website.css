@@ -1,0 +1,95 @@
+
+
+.body {
+    font-family: "Heebo", sans-serif;
+}
+  .sidenav {
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 5px;
+    background: lightgray;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(13, 58, 59);
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
+    @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+/* .animated {
+  animation-name: flash;
+} */
+
+  h1:hover{
+    background-color: orangered;
+  }
+  
+
+  .functions {
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 18pt;
+  }
+
+  .conditionals {
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 18pt;
+  }
+
+  .forLoops {
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 18pt;
+  }
+
+  .objects {
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 18pt;
+  }
+
+  .arrays {
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 18pt;
+  }
+
+  .links {
+    font-size: 14pt;
+  }
+
+  .func {
+    margin-left: 20%
+  }
+
+  .obj {
+    margin-left: 20%
+  }
+
+  .arr {
+    margin-left: 7%
+  }
+
+  .loo {
+    margin-left: 20%
+  }
+
+  .cond {
+    margin-left: 10%
+  }
